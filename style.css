@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+body{
+    background-color: #c3ecf6;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+p{
+    font-size: 16px;
+    line-height: 1.8;
+}
+h2 {
+    font-size: 32px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.intro{
+    background-color: #f0f0f0;
+    border: 2px solid #333;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.intro p{
+    text-indent: 30px;
+}
+
