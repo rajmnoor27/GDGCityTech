@@ -1,9 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html class="events">
     <head>
         <title>Events</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
     </head>
-    <body>
-        <p>This is going to the be the events page</p>
+    <body class="events">
+        <img src ='img/GDG Logo.png' alt="Logo" class="logo">
+        <div class="intro intro2">
+        <h1>Events!!</h1>
+        </div>
+        <div class="intro intro1">
+            <h2>DevFest 2024</h2>
+                <p>DevFest 2024 is a global tech event series organized by Google Developer Group.  
+                    The event brings together developers, tech enthusiasts, and industry professionals to learn, collaborate, and explore the latest advancements in AI and other Google technologies.
+                    A key focus of this year's event is Responsible AI, which centers on the development of artificial intelligence technologies that promote productivity while ensuring ethical standards and social responsibility.
+                    DevFest occurs every year and offers opportunities for hands-on learning, discussions, and networking in areas such as AI, cloud computing, mobile, and web development.
+                </p>
+            
+                <div class="container">
+                    <span class="left-arrow" onclick="changeImage(-1)">&#9664;</span>
+                    <img id="image" src="img/IMG_2263.jpeg" alt="Image">
+                    <span class="right-arrow" onclick="changeImage(1)">&#9654;</span>
+                </div>
+        </div>
+        <br>
+
+        <div class="links">
+            <a class="button" href="index.html" target="_blank">Homepage!</a>
+            <a class="button" href="join.html" target="_blank">Join!</a>
+        </div>
+        
     </body>
 </html>
